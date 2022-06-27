@@ -40,3 +40,25 @@
     title: Dummy project
     summary: This is a Dummy
     description:  
+
+- project:
+    print: True
+    modal: True
+    date: 2021
+    title: Machine learning to accelerate screening for Marcus reorganization energies
+    summary: Using machine learning to find semiconductive polymers with low reorganization energy.
+    description: Using machine learning to find semiconductive polymers with low reorganization energy.
+    contents:
+        - title: test
+          description: test
+
+- project:
+    print: True
+    modal: True
+    date: 2022 &ndsah; Developing
+    title: xTB parsing support for cclib
+    summary:
+    description: Adding xTB parsing support for the cclib python packge.
+    contents:
+        - title: Description
+          description: <b>work in progress.</b> <br> Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 

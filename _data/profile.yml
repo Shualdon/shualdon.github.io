@@ -1,29 +1,46 @@
 image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+username: Omri Abarbanel
+description: Computational Chemistry PhD Candidate @ Hutschison lab, University of Pittburgh 
+webpage: 
 experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2018
+    end: Current
+    experience: PhD Candidate, Hutchison Group, Pittsburgh
+  - start: 2016
+    end: 2018
+    experience: Research Intern, Ulijn Group, New York
+  - start: 2016
+    end: 2018
+    experience: Teaching Assistant, CUNY Hunter College, New York
+  - start: 2011
+    end: 2016
+    experience: IT, Social and Digital Media Director, Israel Tourism Office, New York
+  - start: 2010
+    end: 2011
+    experience: SaaS Tier 1, RSA, Israel
+  - start: 2007
+    end: 2010
+    experience: Network Administrator, Israel Defence Force
 interests:
-  - Interest 1
-  - Interest 2
+  - Material Discovery
+  - Machine Learning
 skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - skill: Python
+    value: 90  # Percent value
+  - skill: Bash
+    value: 70
 social:
-  email:  # Full email address, e.g. "sample@google.com"
+  email: omria6@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 
   scholar: 
   publons: 
   research_gate: 
   linkedin:  # Full URL 
-  github: chrjabs
+  github: shualdon
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  twitter: chrjabs
+  twitter: omriab
   youtube:
   facebook:
   instagram:
