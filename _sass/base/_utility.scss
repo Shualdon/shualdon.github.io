@@ -74,14 +74,23 @@
         word-wrap: break-word;
         border-collapse:collapse;
         padding: auto;
+        overflow-x: scroll;
         thead{
             background-color: #ced3d638;
         }
         td, th {
             padding: 0.5em 1em;
-            border: 1px solid #ddd;
-            font-size: 16px;
+            border: 0px solid #ddd;
+            font-size: 12px;
         }
+    }
+    sub {
+        font-size: smaller;
+        vertical-align: sub;
+    }
+    sup {
+        font-size: smaller;
+        vertical-align: super;
     }
     blockquote {
         background: #ced3d638;
