@@ -107,17 +107,26 @@ By combining those calculations with machine learning methods and genetic algori
 
 <p>The reorganization energy is calculated as:</p>
 
-\[\lambda = (E_0^* - E_0) + (E_+^* - E_+) = \lambda~_0 + \lambda~_+\]
+\[\lambda = \lambda~_0 + \lambda~_+ = (E_0^* - E_0) + (E_+^* - E_+)\]
 
 <p><br />
-<img src="/assets/img/Reorganization_plot.png" alt="sample image" />
+<img src="/assets/img/Reorganization_plot.png" alt="reorganization energy" />
 <br /></p>
 
 <p>Those calculation can pose a great computational cost which increase exponentially with the number of atoms in the molecule.
 Conductive and semiconductive organic polymers with small reorganization energy have many potential uses in various electronic devices, but searching through the vast chemical space to find polymer candidates can be long and computationally expensive.
 <br />
-We have used machine learning models to predict λ of thiophene-based co-polymers, made from two different monomers from a list of 132 monomers.
-We used the B3LYP DFT functional to calculate the λ of a small group of oligomers with length of 4 and 6 monomers (tetramers and hexamers, respectively) as a training set for the machine learning models.</p>
+We have used machine learning models to predict λ of thiophene-based co-polymers, made from two different monomers from a list of 253 monomers.
+We used the B3LYP DFT functional to calculate the λ of a small group of oligomers with length of 4 and 6 monomers (tetramers and hexamers, respectively) as a training set for the machine learning models.
+<br />
+| Random forest             | Neural network             | Gradient boosting trees             | Ridge regression             | Kernel ridge regression             |        |
+|—————|———–|—————-|———–|————————-|———–|——————|———–|————————-|———–|——–|
+| R2            | RMSE (eV) | R2             | RMSE (eV) | R2                      | RMSE (eV) | R2               | RMSE (eV) | R2                      | RMSE (eV) |        |
+| Run 1         | 0.716     | 0.108          | 0.631     | 0.122                   | 0.645     | 0.121            | 0.655     | 0.118                   | 0.683     | 0.113  |
+| Run 2         | 0.662     | 0.118          | 0.653     | 0.120                   | 0.575     | 0.134            | 0.644     | 0.121                   | 0.680     | 0.115  |
+| Run 3         | 0.685     | 0.114          | 0.623     | 0.125                   | 0.612     | 0.129            | 0.666     | 0.117                   | 0.686     | 0.114  |
+| Average       | 0.687     | 0.113          | 0.636     | 0.122                   | 0.611     | 0.128            | 0.655     | 0.119                   | 0.683     | 0.114  |
+|               | ±0.016    | ±0.003         | ±0.009    | ±0.001                  | ±0.020    | ±0.004           | ±0.006    | ±0.001                  | ±0.002    | ±0.001 |</p>
 
   </section>
 </div>
