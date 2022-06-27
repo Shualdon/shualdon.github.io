@@ -25,7 +25,6 @@ interests:
   - Material Discovery
   - Machine Learning
   - Computational Chemistry
-  - Programming
 skills: 
   - skill: Python
     value: 90  # Percent value
@@ -43,7 +42,7 @@ social:
   scholar: https://scholar.google.com/citations?user=7yyPRbIAAAAJ&hl=en
   publons: 
   research_gate: 
-  linkedin:  # Full URL 
+  linkedin: https://www.linkedin.com/in/omri-abarbanel-88138079/ # Full URL 
   github: shualdon
   gitlab: 
   bitbucket: 
