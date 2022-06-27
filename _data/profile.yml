@@ -34,7 +34,7 @@ skills:
     value: 80
   - skill: Data Manipulation (Pandas, numpy, etc.)
     value: 75
-  - skill: Machine Learning (Scikil-Learn, Pytorch, Tensorflow, Keras)
+  - skill: Machine Learning (Scikit-Learn, Pytorch, Tensorflow, Keras)
     value: 70
 social:
   email: omria6@gmail.com # Full email address, e.g. "sample@google.com"
