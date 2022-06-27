@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "/shualdon.github.io"
+baseurl: "/"
 
 # Blog Setting
 blog: True
