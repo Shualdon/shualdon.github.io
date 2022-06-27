@@ -118,15 +118,114 @@ Conductive and semiconductive organic polymers with small reorganization energy 
 <br />
 We have used machine learning models to predict λ of thiophene-based co-polymers, made from two different monomers from a list of 253 monomers.
 We used the B3LYP DFT functional to calculate the λ of a small group of oligomers with length of 4 and 6 monomers (tetramers and hexamers, respectively) as a training set for the machine learning models.
-<br />
-| Random forest             | Neural network             | Gradient boosting trees             | Ridge regression             | Kernel ridge regression             |        |
-|—————|———–|—————-|———–|————————-|———–|——————|———–|————————-|———–|——–|
-| R2            | RMSE (eV) | R2             | RMSE (eV) | R2                      | RMSE (eV) | R2               | RMSE (eV) | R2                      | RMSE (eV) |        |
-| Run 1         | 0.716     | 0.108          | 0.631     | 0.122                   | 0.645     | 0.121            | 0.655     | 0.118                   | 0.683     | 0.113  |
-| Run 2         | 0.662     | 0.118          | 0.653     | 0.120                   | 0.575     | 0.134            | 0.644     | 0.121                   | 0.680     | 0.115  |
-| Run 3         | 0.685     | 0.114          | 0.623     | 0.125                   | 0.612     | 0.129            | 0.666     | 0.117                   | 0.686     | 0.114  |
-| Average       | 0.687     | 0.113          | 0.636     | 0.122                   | 0.611     | 0.128            | 0.655     | 0.119                   | 0.683     | 0.114  |
-|               | ±0.016    | ±0.003         | ±0.009    | ±0.001                  | ±0.020    | ±0.004           | ±0.006    | ±0.001                  | ±0.002    | ±0.001 |</p>
+<br /></p>
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:0px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9j3s{border-color:inherit;font-weight:bold;text-align:right;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-7btt" colspan="2">Random forest</th>
+    <th class="tg-7btt" colspan="2">Neural network</th>
+    <th class="tg-7btt" colspan="2">Gradient boosting trees</th>
+    <th class="tg-7btt" colspan="2">Ridge regression</th>
+    <th class="tg-7btt" colspan="2">Kernel ridge regression</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-7btt">R2</td>
+    <td class="tg-7btt">RMSE (eV)</td>
+    <td class="tg-7btt">R2</td>
+    <td class="tg-7btt">RMSE (eV)</td>
+    <td class="tg-7btt">R2</td>
+    <td class="tg-7btt">RMSE (eV)</td>
+    <td class="tg-7btt">R2</td>
+    <td class="tg-7btt">RMSE (eV)</td>
+    <td class="tg-7btt">R2</td>
+    <td class="tg-7btt">RMSE (eV)</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">Run 1</td>
+    <td class="tg-0pky">0.716</td>
+    <td class="tg-0pky">0.108</td>
+    <td class="tg-0pky">0.631</td>
+    <td class="tg-0pky">0.122</td>
+    <td class="tg-0pky">0.645</td>
+    <td class="tg-0pky">0.121</td>
+    <td class="tg-0pky">0.655</td>
+    <td class="tg-0pky">0.118</td>
+    <td class="tg-0pky">0.683</td>
+    <td class="tg-0pky">0.113</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">Run 2</td>
+    <td class="tg-0pky">0.662</td>
+    <td class="tg-0pky">0.118</td>
+    <td class="tg-0pky">0.653</td>
+    <td class="tg-0pky">0.120</td>
+    <td class="tg-0pky">0.575</td>
+    <td class="tg-0pky">0.134</td>
+    <td class="tg-0pky">0.644</td>
+    <td class="tg-0pky">0.121</td>
+    <td class="tg-0pky">0.680</td>
+    <td class="tg-0pky">0.115</td>
+  </tr>
+  <tr>
+    <td class="tg-dvpl">Run 3</td>
+    <td class="tg-0pky">0.685</td>
+    <td class="tg-0pky">0.114</td>
+    <td class="tg-0pky">0.623</td>
+    <td class="tg-0pky">0.125</td>
+    <td class="tg-0pky">0.612</td>
+    <td class="tg-0pky">0.129</td>
+    <td class="tg-0pky">0.666</td>
+    <td class="tg-0pky">0.117</td>
+    <td class="tg-0pky">0.686</td>
+    <td class="tg-0pky">0.114</td>
+  </tr>
+  <tr>
+    <td class="tg-9j3s" rowspan="2">Average</td>
+    <td class="tg-fymr">0.687</td>
+    <td class="tg-fymr">0.113</td>
+    <td class="tg-fymr">0.636</td>
+    <td class="tg-fymr">0.122</td>
+    <td class="tg-fymr">0.611</td>
+    <td class="tg-fymr">0.128</td>
+    <td class="tg-fymr">0.655</td>
+    <td class="tg-fymr">0.119</td>
+    <td class="tg-fymr">0.683</td>
+    <td class="tg-fymr">0.114</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">±0.016</td>
+    <td class="tg-fymr">±0.003</td>
+    <td class="tg-fymr">±0.009</td>
+    <td class="tg-fymr">±0.001</td>
+    <td class="tg-fymr">±0.020</td>
+    <td class="tg-fymr">±0.004</td>
+    <td class="tg-fymr">±0.006</td>
+    <td class="tg-fymr">±0.001</td>
+    <td class="tg-fymr">±0.002</td>
+    <td class="tg-fymr">±0.001</td>
+  </tr>
+</tbody>
+</table>
+
+<p><br />
+Random forest…</p>
 
   </section>
 </div>
