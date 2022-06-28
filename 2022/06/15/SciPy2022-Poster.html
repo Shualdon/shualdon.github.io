@@ -68,12 +68,15 @@
         </a>
         
         <a href="/blog">
-          <li class="current btn-nav">Blog</li>
+          <li class="btn-nav">Blog</li>
         </a>
         <a href="/tags">
           <li class="btn-nav">Tags</li>
         </a>
         
+        <a href="/cv">
+          <li class="btn-nav">CV</li>
+        </a>
         
       </ul>
     </nav>
@@ -87,7 +90,9 @@
       June 15, 2022
     </p>
   </section>
-  <section class="post-content"><h1 id="introduction">Introduction</h1>
+  <section class="post-content">
+    <ul class="inline_toc" id="my_toc"><li><a href="#introduction">Introduction</a></li><li><a href="#marcus-reorganization-energy">Marcus Reorganization Energy</a></li><li><a href="#ground-state-triplet">Ground-State Triplet</a></li></ul>
+    <h1 id="introduction">Introduction</h1>
 
 <p>Using quantum mechanical calculation in order to calculated molecular properties for the discovery of new materials can be a slow and expensive method.
 By combining those calculations with machine learning methods and genetic algorithms we accelerated the search for nnovel conjugated polymers with optimized properties. In our researche we used machine learning as a screening tool to find polymers with low reorganization energy, as well as used a genetic algorithm to find polymers with a stable triplet ground-state. The semi-empirical method GFN2-xTB was used in both cases as a serrogate to DFT in order to greatly accelerate the search for polymers with these properties.</p>
@@ -114,9 +119,9 @@ By combining those calculations with machine learning methods and genetic algori
 
 <p>Those calculation can pose a great computational cost which increase exponentially with the number of atoms in the molecule.
 Conductive and semiconductive organic polymers with small reorganization energy have many potential uses in various electronic devices, but searching through the vast chemical space to find polymer candidates can be long and computationally expensive. We used machine learning models to predict λ of thiophene-based co-polymers, made from two different monomers from a list of 253 monomers. This gives us 32,131 possible oligomer families. 
-<br />
+<br /><br />
 We used the B3LYP DFT functional to calculate the λ of a small group of oligomers with length of 4 and 6 monomers (tetramers and hexamers, respectively) as a training set for the machine learning models. We used the GFN2-xTB semi-empirical method to calculate various molecular features, such as inter-monomer bond length and angle, as well used RDKit for other features such as ECFP4. Additionally, we also included \(\pi\)-system size feature. We compared five different models and trained them each three times on different splits of the training set.
-<br /></p>
+<br /><br /></p>
 
 <div class="tg-wrap"><table class="tg">
 
@@ -211,15 +216,15 @@ We used the B3LYP DFT functional to calculate the λ of a small group of oligome
 </tbody>
 </table></div>
 
-<p><br />
+<p><br /><br />
 The random forest model had the best performance with \(R^2 = 0.687 ± 0.016\) and \(RMSE = 0.113 ± 0.003 eV\). The prediction on the test set shows a heteroscedastic behavior, where the prediction is less accurate for higher λ. However, this model can be used as a screening tool to find oligomers with small λ.</p>
 
 <p><img src="/assets/img/RF_test_predictions.png" alt="Random Forest model predictions" />
-<br />
+<br /><br />
 While machine learning model struggle to accuretly predict a large range of reorganization energies, they can still be used to find oligomers with a small λ, which can have better performace in various electronic device. By using machine learning we have accelerated the search for polymers with low λ 13× versus calculating the λ for each polymer using DFT.
 <br />
 <br />
-The full research paper can be found here: <a href="https://doi-org.pitt.idm.oclc.org/10.1063/5.0059682">DOI</a>, <a href="https://doi.org/10.26434/chemrxiv.14176655.v1">ChemRxiv</a> (open access), raw data can be found on <a href="https://github.com/hutchisonlab/ReorganizationEnergy">GitHub</a>.</p>
+The full research paper can be found here: <a href="https://doi-org.pitt.idm.oclc.org/10.1063/5.0059682" target="_blank">DOI</a>, <a href="https://doi.org/10.26434/chemrxiv.14176655.v1" target="_blank">ChemRxiv</a> (open access), raw data can be found on <a href="https://github.com/hutchisonlab/ReorganizationEnergy" target="_blank">GitHub</a>.</p>
 
 <h1 id="ground-state-triplet">Ground-State Triplet</h1>
 
