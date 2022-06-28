@@ -59,3 +59,9 @@ social:
   youtube:
   facebook:
   instagram:
+
+languages:
+  - lang: Hebrew
+    value: Fluent
+  - lang: English
+    value: Fluent

@@ -1,0 +1,8 @@
+<section id="languages">
+  <div class="languages-list">
+    <h1 class="title">{{ site.theme_settings.languages_title }}</h1>
+    {% for language in site.data.profile.languages %}
+    <li class="lang">{{ language.lang }} &ndash; {{language.value }}</li>
+    {% endfor %}
+  </div>
+</section>

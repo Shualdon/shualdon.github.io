@@ -1,0 +1,17 @@
+#languages {
+  position: relative;
+  overflow: hidden;
+  ul.languages-list {
+    @extend %page-padding;
+    padding-top: 50px!important;
+    margin-bottom: 55px;
+    h1.title {
+      color: black;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .lang {
+      font-size: 20px;
+    }
+  }
+}
