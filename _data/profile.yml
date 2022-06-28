@@ -6,21 +6,27 @@ experience:
   - start: 2018
     end: Current
     experience: PhD Candidate, Hutchison Group, Pittsburgh
+    text: Using quantum calculations, machine learning and genetic algorithms to search for novel materials with optimized properties.
   - start: 2016
     end: 2018
     experience: Research Intern, Ulijn Group, New York
+    text: Research project - using Second Harmonics Generation imaging to characterize peptide self-assembly.
   - start: 2016
     end: 2018
     experience: Teaching Assistant, CUNY Hunter College, New York
+    text: Teaching general and organic chemistry undergraguate level labs.
   - start: 2011
     end: 2016
     experience: IT, Social and Digital Media Director, Israel Tourism Office, New York
+    text: Managing the computer systems of the 5 Israeli Ministry of Tourism offices around the US. Managing the social media pages (Facebook, Twitter, YouTube) of the Israeli Ministry of Tourism in the US, as well as the US-targeted tourism website.
   - start: 2010
     end: 2011
     experience: SaaS Tier 1, RSA, Israel
+    text: Supporting and monitoring systems used for cyber security for US and European banks.
   - start: 2007
     end: 2010
     experience: Network Administrator, Israel Defence Force
+    text: Managing the computer networks used by over 300 end-users, as well as writing SQL-like reports.
 interests:
   - Material Discovery
   - Machine Learning
@@ -36,6 +42,8 @@ skills:
     value: 75
   - skill: Machine Learning (Scikit-Learn, Pytorch, Tensorflow, Keras)
     value: 70
+  - skill: SQL
+    value: 50
 social:
   email: omria6@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0003-2299-4176
