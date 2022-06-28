@@ -22,9 +22,6 @@
           <li class="btn-nav">Tags</li>
         </a>
         {% endif %}
-        <a href="{{ '/cv' | relative_url }}">
-          <li class="btn-nav">CV</li>
-        </a>
         <!-- publications -->
         {% when 'publications' %}
         <a href="{{ '/'' | relative_url }}">
@@ -42,9 +39,6 @@
           <li class="btn-nav">Tags</li>
         </a>
         {% endif %}
-        <a href="{{ '/cv' | relative_url }}">
-          <li class="btn-nav">CV</li>
-        </a>
         <!-- presentations -->
         {% when 'presentations' %}
         <a href="{{ '/'' | relative_url }}">
@@ -62,9 +56,6 @@
           <li class="btn-nav">Tags</li>
         </a>
         {% endif %}
-        <a href="{{ '/cv' | relative_url }}">
-          <li class="btn-nav">CV</li>
-        </a>
         <!-- blog -->
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
@@ -82,9 +73,6 @@
           <li class="btn-nav">Tags</li>
         </a>
         {% endif %}
-        <a href="{{ '/cv' | relative_url }}">
-          <li class="btn-nav">CV</li>
-        </a>
         <!-- tags -->
         {% when 'tags' %}
         <a href="{{ '/' | relative_url }}">
@@ -102,29 +90,6 @@
         </a>
         <li class="current">Tags</li>
         {% endif %}
-        <a href="{{ '/cv' | relative_url }}">
-          <li class="btn-nav">CV</li>
-        </a>
-        <!-- cv -->
-        {% when 'cv' %}
-        <a href="{{ '/' | relative_url }}">
-          <li class="btn-nav">Home</li>
-        </a>
-        <a href="{{ '/publications' | relative_url }}">
-          <li class="btn-nav">Publications</li>
-        </a>
-        <a href="{{ '/presentations' | relative_url }}">
-          <li class="btn-nav">Presentations</li>
-        </a>
-        {% if site.blog %}
-        <a href="{{ '/blog' | relative_url }}">
-          <li class="btn-nav">Blog</li>
-        </a>
-        <a href="{{ '/tags' | relative_url }}">
-          <li class="btn-nav">Tags</li>
-        </a>
-        {% endif %}
-        <li class="current">CV</li>
         {% else %}
         <!-- others -->
         <a href="{{ '/' | relative_url }}">
