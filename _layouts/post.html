@@ -10,6 +10,7 @@ layout: page
     </p>
   </section>
   <section class="post-content">
+    {%- include toc.html html=text sanitize=true -%}
     {{ content }}
   </section>
 </div>
