@@ -82,10 +82,14 @@
                     }
                 }
                 .img-wrap {
-                    img {
+                    img + em {
                         width:100%;
+                        text-align: center;
+                        color: gray;
+                        display: block;
                     }
                 }
+
             }
         }
         .post:hover{
