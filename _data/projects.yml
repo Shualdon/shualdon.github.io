@@ -1,46 +1,3 @@
-- project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
-    image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-    contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
-
 - project:
     print: True
     modal: True
@@ -55,10 +12,10 @@
 - project:
     print: True
     modal: True
-    date: 2022 &ndsah; Developing
+    date: 2022
     title: xTB parsing support for cclib
     summary:
     description: Adding xTB parsing support for the cclib python packge.
     contents:
-        - title: Description
-          description: <b>work in progress.</b> <br> Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 
+        - title: work in progress.
+          description: Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 
