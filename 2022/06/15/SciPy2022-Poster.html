@@ -91,8 +91,8 @@
     <ul class="inline_toc" id="my_toc"><li><a href="#introduction">Introduction</a></li><li><a href="#marcus-reorganization-energy">Marcus Reorganization Energy</a></li><li><a href="#ground-state-triplet">Ground-State Triplet</a></li></ul>
     <h1 id="introduction">Introduction</h1>
 
-<p>Using quantum mechanical calculation in order to calculated molecular properties for the discovery of new materials can be a slow and expensive method.
-By combining those calculations with machine learning methods and genetic algorithms we accelerated the search for nnovel conjugated polymers with optimized properties. In our researche we used machine learning as a screening tool to find polymers with low reorganization energy, as well as used a genetic algorithm to find polymers with a stable triplet ground-state. The semi-empirical method GFN2-xTB was used in both cases as a serrogate to DFT in order to greatly accelerate the search for polymers with these properties.</p>
+<p>Using quantum mechanical calculations in order to calculated molecular properties for the discovery of new materials can be a slow and expensive method.
+By combining those calculations with machine learning methods and genetic algorithms we accelerated the search for nnovel conjugated polymers with optimized properties. In our researche we used machine learning as a screening tool to find polymers with low reorganization energy, as well as used a genetic algorithm to find polymers with a stable triplet ground-state. The semi-empirical method GFN2-xTB was used in both cases as a surrogate to DFT in order to greatly accelerate the search for polymers with these properties.</p>
 
 <p><br /></p>
 
@@ -112,7 +112,7 @@ By combining those calculations with machine learning methods and genetic algori
 
 <p><img src="/assets/img/Reorganization_plot.png" alt="reorganization energy" class="width-60" /></p>
 
-<p>Those calculation can pose a great computational cost which increase exponentially with the number of atoms in the molecule.
+<p>Those calculations can pose a great computational cost which increases exponentially with the number of atoms in the molecule.
 Conductive and semiconductive organic polymers with small reorganization energy have many potential uses in various electronic devices, but searching through the vast chemical space to find polymer candidates can be long and computationally expensive. We used machine learning models to predict λ of thiophene-based co-polymers, made from two different monomers from a list of 253 monomers. This gives us 32,131 possible oligomer families. 
 <br /><br />
 We used the B3LYP DFT functional to calculate the λ of a small group of oligomers with length of 4 and 6 monomers (tetramers and hexamers, respectively) as a training set for the machine learning models. We used the GFN2-xTB semi-empirical method to calculate various molecular features, such as inter-monomer bond length and angle, as well used RDKit for other features such as ECFP4. Additionally, we also included \(\pi\)-system size feature. We compared five different models and trained them each three times on different splits of the training set.
@@ -223,7 +223,7 @@ The full research paper can be found here: <a href="https://doi-org.pitt.idm.ocl
 
 <h1 id="ground-state-triplet">Ground-State Triplet</h1>
 
-<p>Organic polymers with a tiplet ground state, i.e., a biradical with two unpaired electrons, have interesting properties and potential uses. Those polymers are made from pairs of electron-donor and electron-acceptor monomers which lower the HOMO-LUMO gap and stabilize the triplet ground state. We were interested in finding out what are the predicting properties that can help with discovering new biradical polymers. We used the $\omega$~B97X-D3 DFT method to calculate the HOMO-LUMO gap of the singlet and the stability of the triplet species of 132 oligomers created from 12 acceptor and 11 donor monomers. We found a linear correlation between the HOMO-LUMO gap of the singlet species and the stability of the triplet (calculated as the difference between the electronic energies ofthe triplet and singlet species, \(\Delta E_{T-S}\)), as well as a correleation between the identity of the acceptor monomer and the stability of the triplet ground state.</p>
+<p>Organic polymers with a triplet ground state, i.e., a biradical with two unpaired electrons, have interesting properties and potential uses. Those polymers are made from pairs of electron-donor and electron-acceptor monomers which lower the HOMO-LUMO gap and stabilize the triplet ground state. We were interested in finding out what are the predicting properties that can help with discovering new biradical polymers. We used the $\omega$~B97X-D3 DFT method to calculate the HOMO-LUMO gap of the singlet and the stability of the triplet species of 132 oligomers created from 12 acceptor and 11 donor monomers. We found a linear correlation between the HOMO-LUMO gap of the singlet species and the stability of the triplet (calculated as the difference between the electronic energies of the triplet and singlet species, \(\Delta E_{T-S}\)), as well as a correlation between the identity of the acceptor monomer and the stability of the triplet ground state.</p>
 
 <p><img src="/assets/img/energy_correlation_by_acceptor.png" alt="Correlation between singlet gap and triplet stability" class="width-70" /></p>
 
@@ -231,7 +231,7 @@ The full research paper can be found here: <a href="https://doi-org.pitt.idm.ocl
 Full research paper can be found here: <a href="https://doi.org/10.1021/acs.jpclett.2c00509" target="_blank">DOI</a>, <a href="https://doi.org/10.26434/chemrxiv-2021-wjr6k" target="_blank">ChemRxiv</a> (open access). Raw data can be found on <a href="https://github.com/hutchisonlab/GST" target="_blank">GitHub</a>.</p>
 
 <p><br />
-The HOMO-LUMO gap of the singlet species was found to be the best predictor for the stability of the triplet ground state of the oligomer. Additionally, we have found that HOMO-LUMO gap calculated using the semi-empirical GFN2-xTB correlates with the gap calculated using the $\omega$~B97X-D3 DFT method, which can greatly help accelerate the search for new biradical polymers. Therefor, we used a genetic algorithm combined with GFN2-xTB calculations to search for oligomers, created from combining two monomers from a pool of 1226 possible monomers, with a small HOMO-LUMO gap. The number of possible monomer combination is above 1.5 million (\(1226^2\)) which makes running calculation on all of them impractical, which is why a genetic algorithm can help as it combes through the possible monomer combination more efficiently than an exhaustive search.</p>
+The HOMO-LUMO gap of the singlet species was found to be the best predictor for the stability of the triplet ground state of the oligomer. Additionally, we have found that HOMO-LUMO gap calculated using the semi-empirical GFN2-xTB correlates with the gap calculated using the $\omega$~B97X-D3 DFT method, which can greatly help accelerate the search for new biradical polymers. Therefor, we used a genetic algorithm combined with GFN2-xTB calculations to search for oligomers, created from combining two monomers from a pool of 1226 possible monomers, with a small HOMO-LUMO gap. The number of possible monomer combination is above 1.5 million (\(1226^2\)) which makes running calculations on all of them impractical, which is why a genetic algorithm can help as it combs through the possible monomer combinations more efficiently than an exhaustive search.</p>
 
 <p><img src="/assets/img/GA_Diagram2.png" alt="The genetic algorithm" class="width-50" /></p>
 
@@ -239,7 +239,7 @@ The HOMO-LUMO gap of the singlet species was found to be the best predictor for 
 
 <p><img src="/assets/img/quick_analysis_10runs_both_mean.png" alt="The genetic algorithm results" class="width-60" /></p>
 
-<p>Additionally, we have analized the results of the genetic algorithm to see which monomers have been more frequently selected by the algorithm. We have found that there are ten common monomers that promote a low HOMO-LUMO gap. Monomer 642 and 35 are the two most common monomers, and they share a molecular structure where monomer 642 also includes a vinyl bridge group. A vinyl bridge has been shown to lower the HOMO-LUMO gap and we see that this motif is also the only difference between monomers 115 and 187, and it also appears in monomers 778 and 1029.</p>
+<p>Additionally, we have analyzed the results of the genetic algorithm to see which monomers have been more frequently selected by the algorithm. We have found that there are ten common monomers that promote a low HOMO-LUMO gap. Monomer 642 and 35 are the two most common monomers, and they share a molecular structure where monomer 642 also includes a vinyl bridge group. A vinyl bridge has been shown to lower the HOMO-LUMO gap and we see that this motif is also the only difference between monomers 115 and 187, and it also appears in monomers 778 and 1029.</p>
 
 <p><img src="/assets/img/ga_common_monomers.png" alt="Genetic algorithm common monomers" /></p>
 
