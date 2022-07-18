@@ -38,6 +38,7 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 # Build Settings
+google_analytics: UA-44939647-2
 sass:
   sass_dir: _sass
   style: :compressed
