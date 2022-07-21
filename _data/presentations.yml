@@ -2,5 +2,19 @@
     title: Combining Quantum Mechanical Calculations with Machine Learning and Genetic Algorithms for the Design of Better Materials
     event: SciPy 2022 Conference
     date: 13/7/2022
-    comment: A virtual poster.
+    comment: A virtual poster for the SciPy 2022 conference.
     link: /2022/06/15/SciPy2022-Poster.html # potential link to slides
+
+- presentation:
+    title: Computational Discovery of Stable Conjugated Biradicals
+    event: Pitt & CMU Simulators Meeting
+    date: 23/5/2022
+    comment: A presentation for a meeting of computational chemists from both the University of Pittsburgh and Carnegie Mellon University.
+    slides: /assets/files/Simulators meeting-Omri Abarbanel.pdf
+
+- presentation:
+    title: Machine Learning to Accelerate Screening for Marcus Reorganization Energies
+    event: Pittsburgh Quantum Institute Poster Session
+    date: 29/10/2020
+    comment: A poster for the Pittsburgh Quantum Institute Fall Poster Session.
+    slides: /assets/files/abarbanel_omri_quantum2020.pdf
