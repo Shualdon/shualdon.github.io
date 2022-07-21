@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Favicon code from realfavicongenerator.net -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  <!--jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SciPy 2022 Impressions | Omri Abarbanel</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="SciPy 2022 Impressions" />
+<meta name="author" content="Omri Abarbanel" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="Omri Abarbanel" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-19T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SciPy 2022 Impressions" />
+<meta name="twitter:site" content="@chrjabs" />
+<meta name="twitter:creator" content="@Omri Abarbanel" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Omri Abarbanel"},"dateModified":"2022-07-19T00:00:00-04:00","datePublished":"2022-07-19T00:00:00-04:00","headline":"SciPy 2022 Impressions","mainEntityOfPage":{"@type":"WebPage","@id":"/2022/07/19/SciPy2022-Blog.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/smile.png"},"name":"Omri Abarbanel"},"url":"/2022/07/19/SciPy2022-Blog.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<!--jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<body>
+  <div class="container">
+    
+
+<section id="header-nav">
+  <header>
+    <nav>
+      <ul>
+        
+        <!-- others -->
+        <a href="/">
+          <li class="btn-nav">Home</li>
+        </a>
+        <a href="/publications">
+          <li class="btn-nav">Publications</li>
+        </a>
+        <a href="/presentations">
+          <li class="btn-nav">Presentations</li>
+        </a>
+        
+        <a href="/blog">
+          <li class="btn-nav">Blog</li>
+        </a>
+        <a href="/tags">
+          <li class="btn-nav">Tags</li>
+        </a>
+        
+        
+      </ul>
+    </nav>
+  </header>
+</section>
+<div id="post">
+  <section class="post-header">
+    <h1 class="title">SciPy 2022 Impressions</h1>
+    <p class="subtitle">Thoughts about my first SciPy conference</p>
+    <p class="meta">
+      July 19, 2022
+    </p>
+  </section>
+  <section class="post-content">
+    
+    <p style="text-align: center;"><img src="/assets/img/2022-scipy-logo.png" alt="SciPy 2022" /></p>
+
+<p>Last week I went to my first <a href="https://www.scipy2022.scipy.org/" target="_blank">SciPy conference</a> and it was <em>amazing</em>. After over two years of working from home and hardly socializing with like-minded people it was refreshing to spend 3 days among scientists, developers, open-source advocates, and other python-lovers. It was definitely the jolt of excitement my brain needed after feeling sluggish and mushy for so long. I came back with a carry-on half full of swag, a LinkedIn full of new connections, and a long list of notes and open tabs I need to go over.</p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 1</strong></p>
+
+<p>I landed in Austin, TX on Tuesday, the day before the conference started, at noon and after a quick Uber ride and a hotel check-in we decided we want to explore the city for the rest of the day. However, the weather did not agree with us and after less than 30 minutes of walking in 106 degrees towards downtown we took an Uber back to the hotel. We went to get some BBQ on Rainey street (which was kinda disappointing) followed by a social event organized by Deepnote at Half Step bar down the street. Net some interesting people, had a deep conversation about politics (not what I expected to talk about here), and had a few drinks. Overall it was a good start!</p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 2, SciPy: Day 1</strong></p>
+
+<p>The first day was everything I hoped for. The keynote talk by Ben Blaiszik was interesting and a great way to open the conference. The rest of the day I went to (almost) all of the chemistry and materials symposium talks. Needless to say that all the talks were intriguing and mind-opening, and I learned a lot about what other people work on and many thing I need to look-up later.</p>
+
+<p>In between the talks I talk to the people in the booths outside the ballroom, and even found one guy who did his PhD at the same place and time I did my post-bacc research! None of us remembered the other. I wonder if we interacted before and just forgot. It was worth going to the conference just for meeting and networking with a lot of new people and learning about future employment opportunities.</p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 3, SciPy: Day 2</strong></p>
+
+<p>The second day’s keynote was by Megan Sosey about space telescopes and the way python is used to analyze the incoming data. I was happy to learn that the data from the James Webb Space Telescope is publicly available and that I can just download and play with it. Can’t wait to to it when I get some free time.</p>
+
+<p>This day it was a bit harder to decide to which talks to go to, but I bounced around different symposia, as well as learned about a bunch of data visualization packages I wasn’t aware of in the Data Visualization BOF session. I have already started to explore some of those packages and I hope to incorporate them in my future work from now on.</p>
+
+<p>The day ended with a chemistry and material science dinner at an Indian restaurant, followed by a hope to the bar up the street for a drink. It was great to talk to people who do similar things as me, but my imposter syndrome was all over the place! Still, I enjoyed the good food and company. I missed having dinner and talking science with other people.</p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 4, SciPy: Day 3</strong></p>
+
+<p>The last day of the conference was a bit slow and short. After a keynote by Peter Kalmus about climate science (we’re all doomed) I went to a talk by Matthew Petroff (My collogue’s brother) about visualizations and color blindness. It was, like any other talk in SciPy, very interesting. Like the day before I just walked to any talked that I thought would be relevant to me, and in between I talked even more to the booth-people. In the afternoon I went to a talk about ANI-AIM, which I know a bit about, by Kate Huddleston. Though I like their work I think their claims were exaggerated at times.</p>
+
+<p>The last event I went to, the lightning talks, were the highlight of the day. The last “talk” was a sing-along of a SciPy “original” song to the tune of “I Want It That Way”. It was the best way to end the conference.</p>
+
+<p>This was also the only day that was cold enough in the evening to walk around, so we went to see the bats at Congress bridge, followed by dinner at Torchy’s and a walk around Austin’s 6’th street.</p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 5</strong></p>
+
+<p>The conference was tiring so I’m glad I could sleep-in on Saturday. But afterwards we  walk all the way to SoCo (South Congress) as the weather was not so bad. Got some ice cream, tried on some cowboy-hats, and bought a cool new print for my apartment. And no visit to SoCo can end without a visit to the famous Austin mural.</p>
+
+<p><img src="/assets/img/austin-mural.jpg" alt="Austin Mural" class="width-80" /></p>
+
+<p><br /></p>
+
+<p><strong>Austin: Day 6</strong></p>
+
+<p>Last day. Had a brunch at the restaurant inside a nearby hotel and supplied ourselves with Banh-mi for the road. I somehow managed to pack all of the swag I got into my carry-on and backpack, although I had to carry the Anaconda branded cowboy hat on me the whole time. The flight(s) back were event-less and I got back home exhausted.</p>
+
+<p>All-in-all, I think SciPy 2022 was everything I hoped for, and more. Can’t wait to come again next year!</p>
+
+  </section>
+</div>
+
+<div id="top" class="top-btn" onclick="moveTop()">
+  <i class="fas fa-chevron-up"></i>
+</div>
+
+<script>
+  var lastScrollTop = 0;
+  window.onscroll = function () {
+    var st = document.body.scrollTop || document.documentElement.scrollTop;
+    if (st > 250) {
+      document.getElementById("top").style.display = "block"
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.opacity = 0
+      } else {
+        document.getElementById("top").style.opacity = 1
+      }
+    } else {
+      document.getElementById("top").style.opacity = 0
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.display = "none"
+      }
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  }
+  function moveTop() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
+</script>
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    Copyright © 2022
+    <a href=""></a>.
+    Powered by Jekyll with
+    <a href="https://github.com/chrjabs/Grape-Academic-Theme">Grape Academic Theme</a>.
+  </div>
+</footer>
+
+  </div>
+</body>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+  <style type="text/css">
+    .tg  {border:none;border-collapse:collapse;border-color:#9abad900;border-spacing:0;margin:0px auto;}
+    .tg td{background-color:#EBF5FF;border-color:#ffffff00;border-style:none;border-width:0px;color:#444;
+      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{background-color:#409cff;border-color:#ffffff00;border-style:none;border-width:0px;color:#fff;
+      font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-zodg{background-color:#779bc2;border-color:inherit;color:#ffffff;font-size:12px;font-weight:bold;text-align:center;
+      vertical-align:middle}
+    .tg .tg-77x5{border-color:inherit;font-size:12px;font-weight:bold;text-align:left;vertical-align:middle}
+    .tg .tg-mjbh{background-color:#ebf5ff;border-color:inherit;font-size:12px;text-align:left;vertical-align:middle}
+    .tg .tg-exbr{background-color:#265486;border-color:inherit;font-size:12px;font-weight:bold;text-align:center;vertical-align:middle}
+    .tg .tg-73a0{border-color:inherit;font-size:12px;text-align:left;vertical-align:middle}
+    .tg .tg-3s8j{border-color:inherit;font-size:12px;text-align:right;vertical-align:middle}
+    .tg .tg-1fks{border-color:inherit;font-size:12px;font-weight:bold;text-align:right;vertical-align:middle}
+    @media screen and (max-width: 100%) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: scroll;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+
+
+</html>
