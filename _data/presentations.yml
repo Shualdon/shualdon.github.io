@@ -1,4 +1,11 @@
 - presentation:
+    title: Computational Discovery of Stable Conjugated Biradicals
+    event: ACS Fall 2022
+    date: 21/8/2022
+    comment: A talk for the ACS Fall 2022 meeting.
+    slides: /assets/files/ACS Fall 2022-Omri Abarbanel.pdf
+
+- presentation:
     title: Combining Quantum Mechanical Calculations with Machine Learning and Genetic Algorithms for the Design of Better Materials
     event: SciPy 2022 Conference
     date: 13/7/2022
