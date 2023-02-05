@@ -1,21 +1,57 @@
 - project:
     print: True
     modal: True
-    date: 2021
-    title: Machine learning to accelerate screening for Marcus reorganization energies
-    summary: Using machine learning to find semiconductive polymers with low reorganization energy.
-    description: Using machine learning to find semiconductive polymers with low reorganization energy.
+    date: 2022
+    title: xTB Parsing Support for cclib
+    summary:
+    description: Adding xTB parsing support for the cclib python package.
     contents:
-        - title: test
-          description: test
+        - title: work in progress.
+          description: Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 
+
 
 - project:
     print: True
     modal: True
-    date: 2022
-    title: xTB parsing support for cclib
+    url: https://github.com/Shualdon/pisystem
+    date: 2023
+    title: Pi-System Features for Machine Learning
     summary:
-    description: Adding xTB parsing support for the cclib python packge.
+    description: Creating a descriptors for conjugated molecules for machine learning.
     contents:
-        - title: work in progress.
-          description: Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 
+        - title: Pi-System Features for Machine Learning
+          description: The shape and size of a conjugated Pi-system have an integral role on a molecule's electronic properties. This toolkit provides various descriptors that can be used for machine learning applications, including the number of conjugated atoms, the length of the system as the area of the system.
+
+
+- project:
+    print: True
+    modal: True
+    url: https://github.com/Shualdon/ReorganizationEnergy
+    date: 2021
+    title: Machine Learning to Accelerate Screening for Marcus Reorganization Energies
+    summary:
+    description: Combining machine learning and quantum mechanical features to find conjugated polymers with low reorganization energy
+    contents:
+        - title: Reorganization Energies
+          description: Reorganization energy can be seen as an energy barrier for electron transfer that comes from the molecular conformational change that happen during the transfer. Organic semi-conductive conjugated polymers with low reorganization energies are more efficient and can be used in various potential application. Due to the vast chemical space, finding those polymers can be a time-consuming process, which is why machine learning can help accelerate the search.
+        - title: Machine Learning to Accelerate Screening
+          description: By calculating the reorganization energies of a relatively small set of conjugated polymers we built a machine learning model that accelerated the search 13x. I performed feature engineering and found that adding semi-empirical quantum features greatly increase the accuracy of the model.
+        
+
+- project:
+    print: True
+    modal: True
+    url: https://github.com/Shualdon/GST_GA
+    date: 2022
+    title: Finding High-Spin Polymers Using Genetic Algorithms
+    summary: 
+    description: Accelerating the search for novel materials using genetic algorithms.
+    contents:
+        - title: High-Spin Polymers
+          description: High-spin polymers are a class of novel materials that have two unpaired electrons, making them bi-radicals. Those polymers are built from alternating monomers with one acting as an electron donor and the other as an electron acceptor. Finding the right combination of monomers that creates a stable high-spin polymer can be a time-consuming process.
+        - title: HOMO-LUMO Gap
+          description: I have found that the HOMO-LUMO gap of the polymer can be used as a predictor for the stability of the high-spin state. Additionally, I have found that the semi-empirical quantum method GFN2 can be used as a surrogate for DFT and greatly accelerate the search for those polymers.
+        - title: Genetic Algorithms
+          description: Genetic algorithms is an optimization method that I used to find a combination of monomers that creates a small HOMO-LUMO gap in the polymer. The algorithms uses an iterative method of crossover and mutation to created a new set of polymers in each generation, calculates the HOMO-LUMO gap of each, and only keep half of the population with the lowest gap. With each generation the algorithm finds polymers with lower and lower gap, until it reaches the termination condition.
+        - title: Results
+          description: I have found 1400 potential polymers that have a stable high-spin electronic state. By using the genetic algorithm I decreased the time it takes to find those polymers from a few weeks to just one day.

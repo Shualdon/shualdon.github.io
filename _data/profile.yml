@@ -1,8 +1,12 @@
 image: assets/img/omri.jpg
 username: Omri Abarbanel
-description: Computational Chemistry PhD Candidate @ Hutschison lab, University of Pittsburgh. <br> Download full Résumé [HERE](assets/files/Omri_Abarbanel_Resume.pdf).
+description: Computational Chemistry PhD Candidate @ Hutchison lab, University of Pittsburgh. <br> Download full CV [HERE](assets/files/Omri_Abarbanel_Resume.pdf).
 webpage: 
 experience:
+  - start: 2022
+    end: Current
+    experience: Consultant, Fourth River Solutions
+    text: Providing consulting services to startups, performing market analysis, customer discovery, and more.
   - start: 2018
     end: Current
     experience: PhD Candidate, Hutchison Group, Pittsburgh
@@ -14,7 +18,7 @@ experience:
   - start: 2016
     end: 2018
     experience: Teaching Assistant, CUNY Hunter College, New York
-    text: Teaching general and organic chemistry undergraguate level labs.
+    text: Teaching general and organic chemistry undergraduate level labs.
   - start: 2011
     end: 2016
     experience: IT, Social and Digital Media Director, Israel Tourism Office, New York
@@ -25,18 +29,19 @@ experience:
     text: Supporting and monitoring systems used for cyber security for US and European banks.
   - start: 2007
     end: 2010
-    experience: Network Administrator, Israel Defence Force
+    experience: Network Administrator, Israel Defense Force
     text: Managing the computer networks used by over 300 end-users, as well as writing SQL-like reports.
 interests:
   - Material Discovery
   - Machine Learning
   - Computational Chemistry
+  - Data Science
 skills: 
   - skill: Python
     value: 90  # Percent value
   - skill: Bash
     value: 75
-  - skill: Plotting (Matplotlib, Seaborn, Plotly, etc.)
+  - skill: Data Visualization (Matplotlib, Seaborn, Plotly, etc.)
     value: 80
   - skill: Data Manipulation (Pandas, numpy, etc.)
     value: 75
