@@ -1,4 +1,11 @@
 - presentation:
+    title: Integrating Machine Learning and Quantum Chemistry for Micro-pKa Predictions
+    event: ACS Fall 2023
+    date: 14/8/2023
+    comment: A talk for the ACS Fall 2023 meeting.
+    slides: /assets/files/ACS Fall 2023-Omri Abarbanel.pdf
+
+- presentation:
     title: Computational Discovery of Stable Conjugated Biradicals
     event: ACS Fall 2022
     date: 21/8/2022

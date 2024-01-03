@@ -6,7 +6,7 @@
     summary:
     description: Adding xTB parsing support for the cclib python package.
     contents:
-        - title: work in progress.
+        - title: xTB Parsing Support for cclib
           description: Adding support for parsing xTB output files to <it>cclib</it>. cclib is a popular Python package used to parse output files of different quantum mechanical packages. xTB is a semi-empirical quantum mechanical package which came out in 2019. 
 
 
