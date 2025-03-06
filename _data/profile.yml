@@ -3,12 +3,12 @@ username: Omri Abarbanel
 description: Computational Chemistry PhD Candidate @ Hutchison lab, University of Pittsburgh. <br> Download full CV [HERE](assets/files/Omri_Abarbanel_Resume.pdf).
 webpage: 
 experience:
-  - start: 2022
+  - start: 2024
     end: Current
-    experience: Consultant, Fourth River Solutions
-    text: Providing consulting services to startups, performing market analysis, customer discovery, and more.
+    experience: Research Data Scientist - Post-doctoral Fellow, National Energy Technology Laboratory, Pittsburgh
+    text: Using machine learning to help mitigate mthane emissions from oil and gas wells.
   - start: 2018
-    end: Current
+    end: 2024
     experience: PhD Candidate, Hutchison Group, Pittsburgh
     text: Using quantum calculations, machine learning and genetic algorithms to search for novel materials with optimized properties.
   - start: 2016
