@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #presentations {
     @extend %page-padding;
     .bg{
@@ -32,3 +33,41 @@
         }
     }
 }
+=======
+@use "../base/variable" as vars;
+
+#presentations {
+    @extend %page-padding;
+    .bg{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 105px;
+        left:0%;
+        height: 95px;
+        background-color: vars.$theme-dark;
+    }
+    h1.title{
+        color:#fff;
+        margin-bottom: 30px;
+    }
+    ol.presentations-list{
+        list-style-type: none;
+        li {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            .title {
+                font-weight: bolder;
+                font-style: normal;
+            }
+            .event {
+            }
+            .date {
+                font-style: normal;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}
+>>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a

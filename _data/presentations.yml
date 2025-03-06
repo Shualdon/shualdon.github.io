@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - presentation:
     title: Integrating Machine Learning and Quantum Chemistry for Micro-pKa Predictions
     event: ACS Fall 2023
@@ -32,3 +33,18 @@
     date: 29/10/2020
     comment: A poster for the Pittsburgh Quantum Institute Fall Poster Session.
     slides: /assets/files/abarbanel_omri_quantum2020.pdf
+=======
+- presentation:
+    title: A nice presentation
+    event: Fancy conference
+    date: 05/2022
+    comment: This is some comment text that can do _Markdown_
+    slides: https://www.google.com # potential link to slides
+    poster: https://www.google.com # potential link to slides
+    hub: example-hub # potential hub page to link to
+    recording: https://www.youtube.com
+- presentation:
+    title: A second presentation
+    event: Another conference
+    date: 03/2022
+>>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a
