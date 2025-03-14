@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 image: assets/img/omri.jpg
 username: Omri Abarbanel
 description: Computational Chemistry PhD Candidate @ Hutchison lab, University of Pittsburgh. <br> Download full CV [HERE](assets/files/Omri_Abarbanel_Resume.pdf).
 webpage: 
 experience:
-  - start: 2022
+  - start: 2024
     end: Current
-    experience: Consultant, Fourth River Solutions
-    text: Providing consulting services to startups, performing market analysis, customer discovery, and more.
+    experience: Research Data Scientist - Post-doctoral Fellow, National Energy Technology Laboratory, Pittsburgh
+    text: Using machine learning to help mitigate mthane emissions from oil and gas wells.
   - start: 2018
-    end: Current
+    end: 2024
     experience: PhD Candidate, Hutchison Group, Pittsburgh
     text: Using quantum calculations, machine learning and genetic algorithms to search for novel materials with optimized properties.
   - start: 2016
@@ -33,11 +32,15 @@ experience:
     experience: Network Administrator, Israel Defense Force
     text: Managing the computer networks used by over 300 end-users, as well as writing SQL-like reports.
 interests:
-  - Material Discovery
-  - Machine Learning
-  - Computational Chemistry
   - Data Science
+  - Machine Learning
+  - Material Discovery
+  - Drug Discovery
+  - Computational Chemistry
+  
 skills: 
+  - skill: Research
+    value: 90  # Percent value
   - skill: Python
     value: 90  # Percent value
   - skill: Bash
@@ -47,63 +50,28 @@ skills:
   - skill: Data Manipulation (Pandas, numpy, etc.)
     value: 75
   - skill: Machine Learning (Scikit-Learn, Pytorch, Tensorflow, Keras)
-    value: 70
+    value: 80
   - skill: SQL
-    value: 50
+    value: 60
 social:
   email: omria6@gmail.com # Full email address, e.g. "sample@google.com"
   orcid: 0000-0003-2299-4176
   scholar: https://scholar.google.com/citations?user=7yyPRbIAAAAJ&hl=en
   publons: 
   research_gate: 
-  linkedin: https://www.linkedin.com/in/omri-abarbanel-88138079/ # Full URL 
+  linkedin: https://www.linkedin.com/in/omriabarbanel/ # Full URL 
   github: shualdon
   gitlab: 
   bitbucket: 
   google_plus:
-  twitter: omriab
+  twitter:
   youtube:
   facebook:
   instagram:
+  bluesky: shualdon.bsky.social
 
 languages:
   - lang: Hebrew
     value: Fluent
   - lang: English
     value: Fluent
-=======
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
-experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
-interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
-skills: # Remove for hiding the skills section
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
-social:
-  email:  # Full email address, e.g. "sample@google.com"
-  orcid: 
-  scholar: 
-  publons: 
-  research_gate: 
-  dblp:  # Full URL
-  semantic_scholar:  # Full URL
-  linkedin:  # Full URL 
-  github: chrjabs
-  gitlab: 
-  bitbucket: chrjabs
-  google_plus:
-  mastodon: https://mastodon.social
-  twitter: chrjabs
-  youtube:
-  facebook:
-  instagram:
-awards: # Remove for hiding the awards section
-  - "This is an award I got"
->>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a

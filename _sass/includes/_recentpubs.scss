@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-#recentpubs {
-  position: relative;
-  overflow: hidden;
-  .recentpubs-wrap {
-    @extend %page-padding;
-    padding-top: 50px!important;
-    margin-bottom: 55px;
-    p.title {
-      color: $theme-dark;
-      font-size: 25px;
-      font-weight: 600;
-    }
-  }
-  .bibliography {
-    margin-top: 1rem;
-  }
-}
-=======
 @use "../base/variable" as vars;
 
 #recentpubs {
@@ -36,4 +17,3 @@
     margin-top: 1rem;
   }
 }
->>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a

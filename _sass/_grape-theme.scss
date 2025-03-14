@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-//Bootstrap
-@import 'bootstrap/bootstrap-grid';
-
-// Base 
-@import 'base/variable';
-@import 'base/global';
-@import 'base/utility';
-@import 'base/highlight';
-@import 'base/bibliography';
-
-// Layout 
-@import 'layouts/blog';
-@import 'layouts/post';
-@import 'layouts/tags';
-@import 'layouts/portfolio';
-@import 'layouts/publications';
-@import 'layouts/presentations';
-@import 'layouts/cv';
-
-// Include 
-@import 'includes/header';
-@import 'includes/aside';
-@import 'includes/footer';
-@import 'includes/projects';
-@import 'includes/modal';
-@import 'includes/recentpubs';
-@import 'includes/languages';
-=======
 //Bootstrap
 @use 'bootstrap/bootstrap-grid';
 
@@ -53,4 +24,3 @@
 @use 'includes/projects';
 @use 'includes/modal';
 @use 'includes/recentpubs';
->>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a

@@ -1,29 +1,3 @@
-<<<<<<< HEAD
----
-layout: page
----
-<div id="presentations">
-  <section class="bg"></section>
-  <h1 class="title">{{ page.title }}</h1>
-  <ol class="presentations-list">
-    {% for _ in site.data.presentations %}
-      {% assign presentation = _.presentation %}
-      <li>
-        <em class="title">{{ presentation.title }}</em> at <em class="event">{{ presentation.event }}</em> <em class="date">({{ presentation.date }})</em>
-        <p class="comment">{{ presentation.comment | markdownify }}</p>
-        <div class="links">
-          {%- if presentation.slides %}
-            [<a href="{{ presentation.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>]
-          {%- endif %}
-          {%- if presentation.link %}
-            [<a href="{{ presentation.link }}" class="btn btn-sm z-depth-0" role="button">Link</a>]
-          {%- endif %}
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
-</div>
-=======
 ---
 layout: page
 ---
@@ -62,4 +36,3 @@ layout: page
     {% endfor %}
   </ol>
 </div>
->>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a

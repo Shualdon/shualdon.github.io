@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<p class="title">{{ site.theme_settings.interests_title }}</p>
-<ul class="interests-list">
-  {% for interest in site.data.profile.interests %}
-  <li class="interest">{{ interest }}</li>
-  {% endfor %}
-</ul>
-=======
 {% if site.data.profile.interests %}
   <p class="title">{{ site.theme_settings.interests_title }}</p>
   <ul class="interests-list">
@@ -14,4 +6,3 @@
     {% endfor %}
   </ul>
 {% endif %}
->>>>>>> e7e900d9e085eb454a6bc3c52ce86b7407f9239a
